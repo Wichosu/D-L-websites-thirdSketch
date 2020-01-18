@@ -7,7 +7,7 @@ body {
     padding: 0;
     margin: 0;
     color: white;
-    
+
 }
 
 .wrapper{
@@ -20,8 +20,6 @@ body {
     flex-wrap: inherit;
     flex: 1;
     flex-direction: inherit;
-    padding: 0 .5rem; 
-    
 }
 
  .burguer-button{
@@ -73,39 +71,7 @@ header{
     
  }
 
- /* NAVBAR */
-
-/* .navbar-item{
-    margin: 0 15px;
-    list-style: none;
- }
-
-.navbar-ul{
-    list-style: none;
-    display: flex;
-    padding: 0;
-    font-size: 20px;
-    color: whitesmoke;
-    
-} */
-
-/* ul li a{
-    color: whitesmoke;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-
-ul li a:hover{
-    color: yellow;
-    
-        
-} */
-
 /* NAVBAR */
-
-
 
 /* PRUEBA */
 
@@ -189,12 +155,8 @@ ul li a:hover::before{
 .inicio{
     background: #23272b;
     padding: 6px;
-    margin: 20px 0;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 20px 10%;
     /* border: 2px solid red; */
-
-
 }
 
 
