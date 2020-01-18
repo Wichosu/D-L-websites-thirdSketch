@@ -860,10 +860,6 @@ h2:hover{
     display: flex;
 }
 
-.wrapper{
-    max-width: 200px;
-}
-
 .menu{
     position: fixed;
     background:  rgb(7, 28, 51);
