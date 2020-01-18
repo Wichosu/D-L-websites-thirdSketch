@@ -177,8 +177,7 @@ ul li a:hover::before{
     background-image: url("../img/portada-2.jpg") ;
     background-size: 100% auto;
     background-position: center;
-    /* background-repeat: no-repeat;
-    background-position-x: right; */
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     /* flex-wrap: wrap;  */
@@ -861,6 +860,10 @@ h2:hover{
     display: flex;
 }
 
+.wrapper{
+    max-width: 200px;
+}
+
 .menu{
     position: fixed;
     background:  rgb(7, 28, 51);
@@ -897,6 +900,10 @@ ul li a{
 .header {
     display: block;
     height: auto;
+}
+
+.hero{
+    padding: 200px 0;
 }
 
 .logo{
