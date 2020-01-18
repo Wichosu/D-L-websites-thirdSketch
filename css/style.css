@@ -10,6 +10,37 @@ body {
     
 }
 
+.wrapper{
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+    flex: 1;
+    flex-direction: inherit;
+    padding: 0 .5rem; 
+    
+}
+
+ .burguer-button{
+    color: #01030a;
+    background: rgb(255, 255, 255);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 19px;
+    font-weight: 900;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+     z-index: 777; 
+} 
+
 .logo{
     animation-name: logo;
     animation-duration: 1s;
@@ -816,4 +847,153 @@ h2:hover{
         }
 
     
+/* Responsive Design */
+@media screen and (max-width: 1024px){
+    
+
+}
+@media screen and (max-width: 767px){
+     body{
+        background: #3f4140;
+    }
+    
+    .burguer-button{
+    display: flex;
+}
+
+.menu{
+    position: fixed;
+    background:  rgb(7, 28, 51);
+    z-index: 666;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -100vw;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+}
+
+.menu.active{
+    left: 0;
+}
+
+ul li a{
+    font-size: 25px;
+}
+
+.navbar-ul{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navbar-item{
+    font-size: 30px;
+}
+.header {
+    display: block;
+    height: auto;
+}
+
+.logo{
+    margin: 0;
+    text-align: center;
+}
+
+.navbar-item{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.inicio-init{
+    display: block;
+    
+}
+
+.inicio-details{
+    width: 100%;
+    font-size: 16px;
+}
+
+.inicio-title{
+    font-size: 2em;
+
+}
+
+.inicio-info{
+    font-size: 1.4em;
+    
+}
+
+.inicio-description{
+    font-size: 2em;
+}
+
+.inicio-img-container{
+    width: 100%;
+}
+
+.quienes-init{
+    display: block;
+    
+}
+
+.quienes-details{
+    width: 100%;
+    font-size: 16px;
+}
+.quienes-description{
+    font-size: 2em;
+}
+
+.quienes-img-container{
+
+    width: 100%;
+}
+
+.hacemos-init{
+    display: block;
+    
+}
+
+.hacemos-details{
+    width: 100%;
+    font-size: 16px;
+}
+
+.hacemos-title{
+    font-size: 2em;
+
+}
+
+.hacemos-description{
+    font-size: 2em;
+}
+
+.hacemos-img-container{
+    margin: auto;
+    width: 50%;
+}
+
+.animacion-init{
+    display: block;
+    
+}
+
+.animacion-details{
+    width: 100%;
+    font-size: 16px;
+}
+
+.animacion-description{
+    font-size: 2em;
+}
+
+
+}
+
 
