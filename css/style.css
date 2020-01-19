@@ -179,12 +179,10 @@ h2:hover{
     
 }
 
-
-.inicio-details{
+.inicio-details, .quienes-details, .hacemos-details, .animacion-details{
     width: 50%;
     /* border: solid 2px red; */
-    }
-    
+    }    
     
     .inicio-title{
         font-size: 35px;
@@ -251,13 +249,7 @@ h2:hover{
     
     .quienes-img{
         width: 100%;
-    }
-    
-    .quienes-details{
-        width: 50%;
-        /* border: solid 2px red; */
-        }
-        
+    }     
         
     .quienes-title{
         font-size: 35px;
@@ -295,12 +287,6 @@ h2:hover{
         font-size: 30px;
         margin-bottom: 25px;
     }
-    
-    .hacemos-details{
-        width: 50%;
-        /* border: solid 2px red; */
-        }
-        
         
         .hacemos-title{
             font-size: 35px;
@@ -376,11 +362,6 @@ h2:hover{
                     
         
         }
-
-        .animacion-details{
-            width: 50%;
-            /* border: solid 2px red; */
-            }
 
          .animacion-description{
              font-size: 30px;
