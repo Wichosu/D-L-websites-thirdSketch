@@ -863,6 +863,10 @@ ul li a{
     font-size: 2em;
 }
 
+.mision, .vision{
+    width: fit-content;
+}
+
 .contact-form{
     width: 350px;
     margin-left: 3%;
