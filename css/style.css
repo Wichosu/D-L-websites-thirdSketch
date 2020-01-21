@@ -330,30 +330,6 @@ h2:hover{
             overflow: hidden;
         }
 
-        /* .h2::before{
-            content: '';
-            position: absolute;
-            left: 120%;
-            width: 120%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
-            animation: animate 7.5s linear forwards;
-        }
-        @keyframes animate{
-           0% {
-               left: 110%;
-
-            }
-           100% {
-                left: -20%;
- 
-             }
-        } */
-
-        /* .h2, .span{
-            color: #ff022c;
-        } */
-
         .animacion{
             background:  #23272b;
             padding: 6px;
