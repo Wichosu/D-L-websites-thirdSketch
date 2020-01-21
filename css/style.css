@@ -718,10 +718,6 @@ h2:hover{
 
     
 /* Responsive Design */
-@media screen and (max-width: 1024px){
-    
-
-}
 @media screen and (max-width: 767px){
      body{
         background: #3f4140;
@@ -867,6 +863,25 @@ ul li a{
     font-size: 2em;
 }
 
+.contact-form{
+    width: 350px;
+    margin-left: 3%;
+}
+
+.social-container{
+    margin: 5vh auto 0 auto;
+}
+
+.footer{
+    height: 60vh;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30vh;
+    padding: 0 10vw;
+}
 
 }
 
