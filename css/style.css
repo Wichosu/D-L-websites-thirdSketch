@@ -794,13 +794,8 @@ ul li a{
 
 }
 
-.inicio-info{
-    font-size: 1.4em;
-    
-}
-
 .inicio-description{
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .inicio-img-container{
@@ -814,7 +809,7 @@ ul li a{
 
 .quienes-details{
     width: 100%;
-    font-size: 16px;
+    font-size: 10.5px;
 }
 .quienes-description{
     font-size: 2em;
@@ -832,7 +827,7 @@ ul li a{
 
 .hacemos-details{
     width: 100%;
-    font-size: 16px;
+    font-size: 10.5px;
 }
 
 .hacemos-title{
@@ -849,6 +844,10 @@ ul li a{
     width: 50%;
 }
 
+.h2{
+    font-size: 40px;
+}
+
 .animacion-init{
     display: block;
     
@@ -856,7 +855,7 @@ ul li a{
 
 .animacion-details{
     width: 100%;
-    font-size: 16px;
+    font-size: 10.5px;
 }
 
 .animacion-description{
