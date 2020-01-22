@@ -863,6 +863,14 @@ ul li a{
     font-size: 2em;
 }
 
+.animacion-neon{
+    width: auto;
+}
+
+.texto{
+    font-size: 7.8rem;
+}
+
 .mision, .vision{
     width: fit-content;
 }
